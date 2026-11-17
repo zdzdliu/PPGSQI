@@ -1,0 +1,6 @@
+Data access link: https://drive.google.com/file/d/1ifBzt0TGZViPWmehyYmZDY2JDDbPOpb8/view?usp=sharing
+
+
+rhythm: rhythm type, 0-> non-atrial fibrillation, 1 -> atrial fibrillation.
+sqi: signal quality, 0-> bad, 1 -> good.
+ppgseg:  ppg segment, 10 seconds in length (fs=250 Hz); All PPG segments have undergone band-pass filtering and 0–1 normalization.
