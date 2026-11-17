@@ -260,7 +260,7 @@ The area under the receiver operating characteristic curve (AUROC) was used to e
 
 ### 3.1 Dataset Composition and Quality Labels
 
-Of the windows selected for manual annotation, 26,449 received concordant quality labels from both annotators and were retained for analysis. These nonoverlapping 10-s windows comprised 23,682 non-AF and 2,767 AF windows. Overall, 12,567 windows were labeled Bad (47.5%) and 13,882 were labeled Good (52.5%). The non-AF subgroup contained 11,382 Bad and 12,300 Good windows, whereas the AF subgroup contained 1,185 Bad and 1,582 Good windows. Both quality classes were therefore represented in the AF subgroup, consistent with the annotation criteria, which distinguished physiological rhythm irregularity from poor signal quality. Fig. 2 shows representative Bad and Good PPG windows.
+Of the windows selected for manual annotation, 26,449 received concordant quality labels from both annotators and were retained for analysis. These nonoverlapping 10-s windows comprised 23,682 non-AF and 2,767 AF windows. Overall, 12,567 windows were labeled Bad (47.5%) and 13,882 were labeled Good (52.5%). The non-AF subgroup contained 11,382 Bad and 12,300 Good windows, whereas the AF subgroup contained 1,185 Bad and 1,582 Good windows. Both quality classes were therefore represented in the AF subgroup, consistent with the annotation criteria, which distinguished physiological rhythm irregularity from poor signal quality. Fig. 2 shows representative Bad and Good PPG windows. The dataset is available for download from [Google Drive](https://drive.google.com/file/d/1ifBzt0TGZViPWmehyYmZDY2JDDbPOpb8/view?usp=sharing).
 
 <p align="center">
   <strong>Table 1. Number of Good and Bad PPG windows in the AF and non-AF subgroups.</strong>
