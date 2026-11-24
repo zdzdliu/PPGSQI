@@ -340,12 +340,12 @@ Normalized gain-based feature importance was calculated using the XGBoost models
 
 ### 3.4 XGBoost Performance With Gain-Based Feature Selection
 
-XGBoost models using gain-selected features were compared with those using all 21 SQIs on the same outer folds. Within each outer training set, the smallest subset of the top-ranked features reaching 95% cumulative normalized gain was selected. A new XGBoost model was then tuned and fitted using these Top-k features and evaluated on the held-out outer test fold. Feature selection therefore used no information from the outer test fold.
+XGBoost models using gain-selected Top-11 features were compared with those using all 21 SQIs on the same outer folds. Within each outer training set, the smallest subset of the top-ranked features reaching 95% cumulative normalized gain was selected. A new XGBoost model was then tuned and fitted using these Top-11 features and evaluated on the held-out outer test fold. Feature selection therefore used no information from the outer test fold.
 
-**Table 4. XGBoost performance using all 21 SQIs and fold-specific Top-k subsets selected by the 95% cumulative-gain criterion at a decision threshold of 0.5**
+**Table 4. XGBoost performance using all 21 SQIs and fold-specific Top-11 subsets selected by the 95% cumulative-gain criterion at a decision threshold of 0.5**
 <div align="center">
   
-| Metric | All 21 SQIs (mean ± SD) | Gain-95% Top-k (mean ± SD) |
+| Metric | All 21 SQIs (mean ± SD) | Gain-95% Top-11 (mean ± SD) |
 |---|---:|---:|
 | AUROC | 0.9947 ± 0.0067 | 0.9943 ± 0.0068 |
 | Bad sensitivity | 0.9601 ± 0.0459 | 0.9573 ± 0.0476 |
